@@ -4,7 +4,7 @@ module.exports = {
       name: 'biliwts',
       script: './index.js',
       watch: true,
-      ignore_watch: ['./logs'],
+      ignore_watch: ['./logs','.git/'],
       exec_mode: 'fork',
       cwd: '', // the directory from which your app will be launched
       args: '', // string containing all arguments passed via CLI to script
